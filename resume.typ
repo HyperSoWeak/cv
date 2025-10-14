@@ -38,25 +38,25 @@
   title: "NTU CSIE Council · Frontend Developer & Project Maintainer",
   location: "Taipei, Taiwan",
   date: "Apr 2024 – Present",
-  description: "Developed the NTU CSIE Council website frontend, serving departmental services and resources.",
+  description: "Engineered the frontend for the CSIE Council website, providing students access to departmental resources.",
   title-link: "https://council.csie.ntu.edu.tw/",
 )
 #resume-item[
-  - Built homepage and course archive system with responsive design and search
-  - Improved user experience with smooth animations and collaborated with backend developers for API integration
-  - Currently maintain the project, coordinating feature planning and development
+  - Implemented the homepage and a course archive system, featuring a responsive design and integrated search functionality
+  - Enhanced user experience with fluid animations and collaborated with the backend team to integrate RESTful APIs
+  - Currently maintain the project, including feature planning, development coordination, and code reviews
 ]
 
 #resume-entry(
   title: "Challenge 2025 · Game Developer & Project Lead",
   location: "Taipei, Taiwan",
   date: "May 2025 – Jul 2025",
-  description: "Led a 15+ member team to build an educational game for NTU CSIE Information Camp with Godot.",
+  description: "Led a 15-member team in developing an educational game for the NTU CSIE Camp using the Godot engine.",
   title-link: "https://github.com/CSIE-Challenge/Challenge2025",
 )
 #resume-item[
   - Implemented gameplay, UI systems, and event flow in Godot
-  - Designed APIs for students to control game characters using code, reinforcing programming concepts
+  - Designed APIs for 100+ students to control game characters using code, reinforcing programming concepts
   - Established Git workflow and CI to ensure code quality and collaboration
 ]
 
@@ -93,7 +93,7 @@
 )
 #resume-item[
   - Built system for parents to select courses, transport, and meals
-  - Auto-generated schedules and provided admin dashboard for adjustments
+  - Automated the generation of student schedules and implemented an administrative dashboard for adjustments.
 ]
 
 = Skills
@@ -106,7 +106,7 @@
 )
 #resume-item[
   - Languages: C/C++, Python, TypeScript, Java
-  - Web Development & Systems: React/Next.js, Express, MongoDB, Docker, Linux, Git, GitHub Actions
+  - Web Development & Systems: React/Next.js, Express, MongoDB, Docker, Linux, Git
   - Graphics & Game Dev: Godot 4, Unity, WebGL, GLSL
 ]
 
