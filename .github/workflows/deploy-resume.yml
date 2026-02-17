@@ -26,14 +26,14 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
 
-      - name: Install Font Awesome 7 fonts
+      - name: Install Font Awesome 6 fonts
         run: |
           sudo apt-get update
           sudo apt-get install -y unzip fontconfig
           curl -L -o /tmp/fontawesome-desktop.zip \
-            https://github.com/FortAwesome/Font-Awesome/releases/download/7.0.0/fontawesome-free-7.0.0-desktop.zip
-          mkdir -p ~/.local/share/fonts/fontawesome7
-          unzip -j /tmp/fontawesome-desktop.zip "fontawesome-free-7.0.0-desktop/otfs/*.otf" -d ~/.local/share/fonts/fontawesome7
+            https://github.com/FortAwesome/Font-Awesome/releases/download/6.7.2/fontawesome-free-6.7.2-desktop.zip
+          mkdir -p ~/.local/share/fonts/fontawesome6
+          unzip -j /tmp/fontawesome-desktop.zip "fontawesome-free-6.7.2-desktop/otfs/*.otf" -d ~/.local/share/fonts/fontawesome6
           fc-cache -f
 
       - name: Compile resume.pdf
