@@ -13,6 +13,7 @@
       "Software Engineer",
     ),
   ),
+  font: ("Liberation Serif"),
   profile-picture: none,
   date: datetime.today().display(),
   paper-size: "us-letter",
@@ -76,7 +77,7 @@
 #resume-entry(
   title: "OwoJudge · Online Judge System",
   location: "Taipei, Taiwan",
-  date: "Jun 2025 - Present",
+  date: "Jun 2025 - Dec 2025",
   description: "Full-stack developer of an online judge system.",
   title-link: "https://github.com/HyperSoWeak/OwoJudge",
 )
@@ -86,14 +87,15 @@
 ]
 
 #resume-entry(
-  title: "Course Registration Website for Cram School",
+  title: "Cram School Academic Administration System",
   location: "Taipei, Taiwan",
-  date: "Mar 2024",
-  description: "Built a private course registration system for a cram school.",
+  date: "Mar 2024 - Present",
+  description: "Built an internal academic administration system for a cram school.",
 )
 #resume-item[
-  - Built system for parents to select courses, transport, and meals
-  - Automated the generation of student schedules and implemented an administrative dashboard for adjustments.
+  - Built course registration forms for parents to select classes, transport, and meals, and auto-generate student schedules
+  - Developed an AI LINE Bot problem-solving assistant for student Q&A support
+  - Implemented AI-powered question organization and exam paper generation workflows
 ]
 
 = Skills
@@ -105,8 +107,8 @@
   description: "",
 )
 #resume-item[
-  - Languages: C/C++, Python, TypeScript, Java
-  - Web Development & Systems: React/Next.js, Express, MongoDB, Docker, Linux, Git
+  - Languages: C/C++, Python, TypeScript, Rust, Java
+  - Web Development & Systems: React/Next.js, Express, MongoDB, PostgreSQL, Docker, Linux, Git
   - Graphics & Game Dev: Godot 4, Unity, WebGL, GLSL
 ]
 
