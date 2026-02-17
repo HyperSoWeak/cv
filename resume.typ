@@ -1,4 +1,7 @@
 #import "@preview/modern-cv:0.9.0": *
+#import "@preview/fontawesome:0.6.0": fa-version
+
+#fa-version("7")
 
 #show: resume.with(
   author: (
@@ -14,6 +17,7 @@
     ),
   ),
   font: ("Liberation Serif"),
+  header-font: "Liberation Serif",
   profile-picture: none,
   date: datetime.today().display(),
   paper-size: "us-letter",
