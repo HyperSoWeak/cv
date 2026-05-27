@@ -50,6 +50,18 @@
 ]
 
 #resume-entry(
+  title: "Sophion AI · Founder & Lead Engineer",
+  location: "Taipei, Taiwan",
+  date: "Jan 2026 – Present",
+  description: "Founded and built an AI-enabled education platform supporting 1,000+ students.",
+)
+#resume-item[
+  - Built registration and operations workflows for course selection, transportation, meal planning, and automatic schedule generation
+  - Developed a multi-tenant LINE Bot platform where students submit questions and receive AI-generated solutions
+  - Designed AI-assisted workflows for question organization, answer feedback, usage tracking, and exam paper generation
+]
+
+#resume-entry(
   title: "Challenge 2025 · Game Developer & Project Lead",
   location: "Taipei, Taiwan",
   date: "May 2025 – Jul 2025",
@@ -78,25 +90,14 @@
 #resume-entry(
   title: "OwoJudge · Online Judge System",
   location: "Taipei, Taiwan",
-  date: "Jun 2025 - Dec 2025",
-  description: "Full-stack developer of an online judge system.",
-  title-link: "https://github.com/HyperSoWeak/OwoJudge",
+  date: "Jun 2025 - Feb 2026",
+  description: "Built an online judge system used by 300+ NTU CSIE students.",
+  title-link: "https://github.com/OwoJudge-Team/OwoJudge",
 )
 #resume-item[
-  - Designed and implemented problem rendering, submission handling, and ranking features
-  - Planned deployment for NTU’s Data Structures and Algorithms course
-]
-
-#resume-entry(
-  title: "Cram School Academic Administration System",
-  location: "Taipei, Taiwan",
-  date: "Mar 2024 - Present",
-  description: "Built an internal academic administration system for a cram school.",
-)
-#resume-item[
-  - Built course registration forms for parents to select classes, transport, and meals, and auto-generate student schedules
-  - Developed an AI LINE Bot problem-solving assistant for student Q&A support
-  - Implemented AI-powered question organization and exam paper generation workflows
+  - Implemented problem rendering, submission handling, ranking, and assignment workflows
+  - Deployed the platform for course-wide use by 300+ students in NTU CSIE
+  - Maintained judge infrastructure and improved workflows for problem authoring and submission management
 ]
 
 = Skills
