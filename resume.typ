@@ -46,10 +46,10 @@
 ]
 
 #resume-entry(
-  title: "Sophion AI · Co-Founder & Lead Engineer",
+  title: "Sophion AI · Creator & Lead Engineer",
   location: "Remote",
   date: "Jan 2026 – May 2026",
-  description: "Co-founded and built an AI-enabled education platform supporting 3,000+ students.",
+  description: "Built an AI-enabled education platform supporting 3,000+ students.",
 )
 #resume-item[
   - Built registration and operations workflows for course selection, transportation, meal planning, and automatic schedule generation
