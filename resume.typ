@@ -2,7 +2,7 @@
 
 #show: resume.with(
   author: (
-    firstname: "You-Cheng",
+    firstname: "Hyper",
     lastname: "Hu",
     email: "hypersoweak@gmail.com",
     phone: "(+886) 973-588-322",
@@ -28,11 +28,8 @@
   title: "National Taiwan University",
   location: "B.S. in Computer Science and Information Engineering",
   date: "Sep 2023 – Jun 2027 (Expected)",
-  description: "Senior student · Cumulative GPA: 4.08/4.3",
+  description: "Senior student · GPA: 4.08 · Coursework: Operating Systems, Advanced Compiler Design, Computer Networks, Computer Security, Algorithm Design & Analysis, Machine Learning, Computer Graphics.",
 )
-#resume-item[
-  - Coursework: Operating Systems, Advanced Compiler Design, Computer Networks, Computer Security, Algorithm Design & Analysis, Machine Learning, Computer Graphics.
-]
 
 = Experience
 
@@ -40,7 +37,7 @@
   title: "Google · Software Engineering Intern (Android Platform)",
   location: "Banqiao, Taiwan",
   date: "Jun 2026 – Sep 2026",
-  description: "Modernized the Android Accessibility Menu in Android Framework, serving 15 millions of global users.",
+  description: "Modernized the Android Accessibility Menu in Android Framework, serving 15 million users worldwide.",
 )
 #resume-item[
   - Authored the Engineering Design Document and re-architected the legacy Java service into Kotlin Clean MVVM & Compose, achieving 100% host-side JVM testability and custom lifecycle management for Activity-less overlays
@@ -77,12 +74,8 @@
   title: "Teaching Assistant · Data Structures and Algorithms",
   location: "NTU CSIE",
   date: "Mar 2025 – Jun 2025",
-  description: "Supported teaching of data structures and algorithms; designed assignments and verified exams.",
+  description: "Guided students during office hours; designed assignments and verified exam problems.",
 )
-#resume-item[
-  - Guided students through activities and problem-solving during office hours
-  - Collaborated with professors and fellow TAs to design assignments and verify exam problems
-]
 
 = Projects
 
@@ -90,12 +83,11 @@
   title: "OwoJudge · Online Judge System",
   location: "Taipei, Taiwan",
   date: "Jun 2025 - Feb 2026",
-  description: "Built an online judge system used by 300+ NTU CSIE students.",
+  description: "Deployed an online judge system used by 300+ NTU CSIE students.",
   title-link: "https://github.com/OwoJudge-Team/OwoJudge",
 )
 #resume-item[
   - Implemented problem rendering, submission handling, ranking, and assignment workflows
-  - Deployed the platform for course-wide use by 300+ students in NTU CSIE
   - Maintained judge infrastructure and improved workflows for problem authoring and submission management
 ]
 
