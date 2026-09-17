@@ -13,7 +13,7 @@
       "Software Engineer",
     ),
   ),
-  font: ("Liberation Serif"),
+  font: "Liberation Serif",
   header-font: "Liberation Serif",
   profile-picture: none,
   date: datetime.today().display(),
@@ -27,33 +27,32 @@
 #resume-entry(
   title: "National Taiwan University",
   location: "B.S. in Computer Science and Information Engineering",
-  date: "Sep 2023 – Present",
-  description: "Junior student · Cumulative GPA: 4.11/4.3",
+  date: "Sep 2023 – Jun 2027 (Expected)",
+  description: "Senior student · Cumulative GPA: 4.08/4.3",
 )
 #resume-item[
-  - Coursework: Data Structures and Algorithms, Operating Systems, Machine Learning, Computer Graphics, Computer Security.
+  - Coursework: Operating Systems, Advanced Compiler Design, Computer Networks, Computer Security, Algorithm Design & Analysis, Machine Learning, Computer Graphics.
 ]
 
 = Experience
 
 #resume-entry(
-  title: "NTU CSIE Council · Frontend Developer & Project Maintainer",
-  location: "Taipei, Taiwan",
-  date: "Apr 2024 – Present",
-  description: "Engineered the frontend for the CSIE Council website, providing students access to departmental resources.",
-  title-link: "https://council.csie.ntu.edu.tw/",
+  title: "Google · Software Engineering Intern (Android Platform)",
+  location: "Banqiao, Taiwan",
+  date: "Jun 2026 – Sep 2026",
+  description: "Modernized the Android Accessibility Menu in Android Framework, serving 15 millions of global users.",
 )
 #resume-item[
-  - Implemented the homepage and a course archive system, featuring a responsive design and integrated search functionality
-  - Enhanced user experience with fluid animations and collaborated with the backend team to integrate RESTful APIs
-  - Currently maintain the project, including feature planning, development coordination, and code reviews
+  - Authored the Engineering Design Document and re-architected the legacy Java service into Kotlin Clean MVVM & Compose, achieving 100% host-side JVM testability and custom lifecycle management for Activity-less overlays
+  - Engineered a custom Jetpack Compose grid layout that dynamically aligns uneven multi-line labels across extreme accessibility font scales on phones, foldables, and tablets
+  - Partnered with UX and PM teams to resolve accessibility edge cases for shortcut customization (the \#1 user request), unifying drag-and-drop, dexterity-friendly tap-to-move, and TalkBack actions over a shared repository
 ]
 
 #resume-entry(
-  title: "Sophion AI · Founder & Lead Engineer",
-  location: "Taipei, Taiwan",
-  date: "Jan 2026 – Present",
-  description: "Founded and built an AI-enabled education platform supporting 1,000+ students.",
+  title: "Sophion AI · Co-Founder & Lead Engineer",
+  location: "Remote",
+  date: "Jan 2026 – May 2026",
+  description: "Co-founded and built an AI-enabled education platform supporting 3,000+ students.",
 )
 #resume-item[
   - Built registration and operations workflows for course selection, transportation, meal planning, and automatic schedule generation
@@ -62,16 +61,16 @@
 ]
 
 #resume-entry(
-  title: "Challenge 2025 · Game Developer & Project Lead",
+  title: "NTU CSIE Council · Frontend Developer & Project Maintainer",
   location: "Taipei, Taiwan",
-  date: "May 2025 – Jul 2025",
-  description: "Led a 15-member team in developing an educational game for the NTU CSIE Camp using the Godot engine.",
-  title-link: "https://github.com/CSIE-Challenge/Challenge2025",
+  date: "Apr 2024 – Jun 2026",
+  description: "Engineered the frontend for the CSIE Council website, providing students access to departmental resources.",
+  title-link: "https://github.com/NTUCSIECouncil",
 )
 #resume-item[
-  - Implemented gameplay, UI systems, and event flow in Godot
-  - Designed APIs for 100+ students to control game characters using code, reinforcing programming concepts
-  - Established Git workflow and CI to ensure code quality and collaboration
+  - Implemented the homepage and a course archive system, featuring a responsive design and integrated search functionality
+  - Enhanced user experience with fluid animations and collaborated with the backend team to integrate RESTful APIs
+  - Maintained the project, including feature planning, development coordination, and code reviews
 ]
 
 #resume-entry(
@@ -100,17 +99,24 @@
   - Maintained judge infrastructure and improved workflows for problem authoring and submission management
 ]
 
-= Skills
-
 #resume-entry(
-  title: "Programming & Tools",
-  location: "",
-  date: "",
-  description: "",
+  title: "Cringe Coder Bros",
+  location: "Taipei, Taiwan",
+  date: "May 2025 – Jul 2025",
+  description: "Led a 15-member team in developing an educational game for the NTU CSIE Camp using the Godot engine.",
+  title-link: "https://github.com/CSIE-Challenge/Challenge2025",
 )
 #resume-item[
-  - Languages: C/C++, Python, TypeScript, Rust, Java
-  - Web Development & Systems: React/Next.js, Express, MongoDB, PostgreSQL, Docker, Linux, Git
+  - Implemented gameplay, UI systems, and event flow in Godot
+  - Designed APIs for 100+ students to control game characters using code, reinforcing programming concepts
+  - Established Git workflow and CI to ensure code quality and collaboration
+]
+
+= Skills
+
+#resume-item[
+  - Languages: C/C++, Python, TypeScript, Kotlin, Java, Rust
+  - Frameworks & Systems: Android SDK/AOSP, Jetpack Compose, React/Next.js, Express, PostgreSQL, Docker, Linux, Git
   - Graphics & Game Dev: Godot 4, Unity, WebGL, GLSL
 ]
 
@@ -119,6 +125,6 @@
 #resume-entry(
   title: "Academic Director · NTU CSIE Council",
   location: "Taipei, Taiwan",
-  date: "Aug 2025 – Present",
+  date: "Aug 2025 – Aug 2026",
   description: "Organized freshmen ICPC contests, ran technical workshops, and maintained the student council website.",
 )
